@@ -11,16 +11,16 @@ This module creates the following resources. It automatically fetches the first 
 * 2 database subnets
 * 1 database route table
 * 1 Elastic IP
-* 1 NAT gateway in 1a az.
-* Assocition between public subnets and public route table
-* Assocition between private subnets and private route table
-* Assocition between database subnets and database route table
+* 1 NAT gateway in 1a az
+* Association between public subnets and public route table
+* Association between private subnets and private route table
+* Association between database subnets and database route table
 
 ## Name format for the resources
 
-**for subnets:** [project_name]-public/private/database-1a/1b
+**subnets:** [project_name]-public/private/database-1a/1b
 
-**for route tables:** [project_name]-public/private/database
+**route tables:** [project_name]-public/private/database
 
 ## Arguments
 
