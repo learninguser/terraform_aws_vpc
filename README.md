@@ -17,35 +17,36 @@ This module creates the following resources. It automatically fetches the first 
 * Assocition between database subnets and database route table
 
 ## Name format for the resources
-**for subnets:** [project_name]-public/private/database-1a/1b <br/>
+
+**for subnets:** [project_name]-public/private/database-1a/1b
 **for route tables:** [project_name]-public/private/database
 
 ## Arguments
 
-**Project_name** (Required) - User must provide his project name <br/>
+**Project_name** (Required) - User must provide his project name
 
-**vpc_cidr** (Optional) - Default value is 10.0.0.0/16 <br/>
+**vpc_cidr** (Optional) - Default value is 10.0.0.0/16
 
-**vpc_tags** (Optional) - User can provide tags, other wise empty <br/>
+**vpc_tags** (Optional) - User can provide tags, other wise empty
 
-**public_subnet_cidr** (Required) - User must provide 2 valid subnet CIDR <br/>
+**public_subnet_cidr** (Required) - User must provide 2 valid subnet CIDR
 
-**public_subnet_tags** (Optional) - User can provide tags, other wise empty <br/>
+**public_subnet_tags** (Optional) - User can provide tags, other wise empty
 
-**private_subnet_cidr** (Required) - User must provide 2 valid subnet CIDR <br/>
+**private_subnet_cidr** (Required) - User must provide 2 valid subnet CIDR
 
-**private_subnet_tags** (Optional) - User can provide tags, other wise empty <br/>
+**private_subnet_tags** (Optional) - User can provide tags, other wise empty
 
-**database_subnet_cidr** (Required) - User must provide 2 valid subnet CIDR <br/>
+**database_subnet_cidr** (Required) - User must provide 2 valid subnet CIDR
 
-**database_subnet_tags** (Optional) - User can provide tags, other wise empty <br/>
+**database_subnet_tags** (Optional) - User can provide tags, other wise empty
 
-**private_route_table_tags** (Optional) - User can provide tags, other wise empty <br/>
+**private_route_table_tags** (Optional) - User can provide tags, other wise empty
 
-**public_route_table_tags** (Optional) - User can provide tags, other wise empty <br/>
+**public_route_table_tags** (Optional) - User can provide tags, other wise empty
 
-**database_route_table_tags** (Optional) - User can provide tags, other wise empty <br/>
+**database_route_table_tags** (Optional) - User can provide tags, other wise empty
 
-### Outputs
+## Outputs
 
 vpc_id -  This is the ID of VPC created
