@@ -19,6 +19,7 @@ This module creates the following resources. It automatically fetches the first 
 ## Name format for the resources
 
 **for subnets:** [project_name]-public/private/database-1a/1b
+
 **for route tables:** [project_name]-public/private/database
 
 ## Arguments
